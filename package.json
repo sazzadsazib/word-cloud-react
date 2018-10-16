@@ -21,13 +21,18 @@
     "@babel/cli": "^7.0.0",
     "@babel/core": "^7.0.0",
     "babel-preset-react-app": "^5.0.4",
+    "prop-types": "^15.6.2",
     "react": "^16.5.2",
     "react-dom": "^16.5.2",
-    "react-scripts": "2.0.5"
+    "react-scripts": "2.0.5",
+    "react-tooltip": "^3.9.0"
   },
   "main": "dist/index.js",
   "module": "dist/index.js",
-  "files": [ "dist", "README.md" ],
+  "files": [
+    "dist",
+    "README.md"
+  ],
   "author": "sazzadsazib",
   "license": "MIT",
   "repository": {

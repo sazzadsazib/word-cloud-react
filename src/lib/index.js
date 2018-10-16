@@ -1,2 +1,2 @@
-import CohortBasic from "./Cohort/CohortComponent";
-export { CohortBasic };
+import WordCloud from "./WordCloud/WordCloudComponent";
+export { WordCloud };

@@ -1,2 +1,13 @@
 @import url('https://fonts.googleapis.com/css?family=Lato:400,700');
 /*add  style here*/
+.container {
+    margin: 0;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.container > span {
+    padding: 1px 10px;
+    text-align: center;
+    cursor: pointer;
+}
