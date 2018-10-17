@@ -12,7 +12,7 @@ class WordCloudComponent extends Component {
                 {this.props.data.length > 0 ? this.props.data.map((item,i)=>
                         <span key={i} style={{
                             color: this.props.color[Math.floor(Math.random()*100)%this.props.color.length],
-                            fontSize: ''+Math.round(Math.log(item.value)*1.2)+'vmin',
+                            fontSize: Math.log2(item.value) * 5,
                         }}>
                         <div data-tip={"Value: "+item.value} onClick={()=>this.props.clickEvent ? this.props.clickEvent(item) : ''}> {item.word} </div>
                             <ReactTooltip place="top" type="dark" effect="solid"/>

@@ -35,7 +35,7 @@ function (_Component) {
           key: i,
           style: {
             color: _this.props.color[Math.floor(Math.random() * 100) % _this.props.color.length],
-            fontSize: '' + Math.round(Math.log(item.value) * 1.2) + 'vmin'
+            fontSize: Math.log2(item.value) * 5
           }
         }, React.createElement("div", {
           "data-tip": "Value: " + item.value,
