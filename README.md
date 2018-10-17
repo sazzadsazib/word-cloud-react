@@ -20,7 +20,7 @@ Use it as:
         color={['#71803F', '#F8AC1D','#598EC0','#E2543E','#1A3051','#F46F73','#8A87BB','#56CFCD','#297373','#FF8552','#F2E863','#C2F8CB','#3A6EA5','#FF6700','#C0C0C0','#4E4381','#523CBD',]}/>``
         
 
-###Props:
+### Props:
  ``width: auto | number , PropType: String | Integer``<br/><br/>
  ``data: [{"value": 100, "word": "hi},{"value": 150, "word": "hello}] , PropType: Array``<br/><br/>
  ``color: ['#71803F', '#F8AC1D'] , PropType: Array``<br/><br/>
