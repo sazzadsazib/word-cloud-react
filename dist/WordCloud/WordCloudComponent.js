@@ -38,7 +38,10 @@ function (_Component) {
             fontSize: '' + Math.round(Math.log(item.value) * 1.2) + 'vmin'
           }
         }, React.createElement("div", {
-          "data-tip": "Value: " + item.value
+          "data-tip": "Value: " + item.value,
+          onClick: function onClick() {
+            return _this.props.clickEvent(item);
+          }
         }, " ", item.word, " "), React.createElement(ReactTooltip, {
           place: "top",
           type: "dark",
