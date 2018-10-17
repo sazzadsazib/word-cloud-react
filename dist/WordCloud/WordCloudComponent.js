@@ -24,7 +24,7 @@ function (_Component) {
       var _this = this;
 
       return React.createElement("div", {
-        className: "container",
+        className: "container-react-word-cloud",
         style: this.props.width === 'auto' ? {
           width: '98.5%'
         } : {

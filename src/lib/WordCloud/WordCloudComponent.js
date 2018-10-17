@@ -8,7 +8,7 @@ class WordCloudComponent extends Component {
 
     render() {
         return(
-            <div className="container" style={this.props.width === 'auto' ? {width: '98.5%'}: {width: this.props.width}}>
+            <div className="container-react-word-cloud" style={this.props.width === 'auto' ? {width: '98.5%'}: {width: this.props.width}}>
                 {this.props.data.length > 0 ? this.props.data.map((item,i)=>
                         <span key={i} style={{
                             color: this.props.color[Math.floor(Math.random()*100)%this.props.color.length],
