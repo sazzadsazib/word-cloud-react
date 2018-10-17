@@ -39,13 +39,15 @@ function (_Component) {
           }
         }, React.createElement("div", {
           "data-tip": "Value: " + item.value,
+          "data-event": "click focus",
           onClick: function onClick() {
             return _this.props.clickEvent ? _this.props.clickEvent(item) : '';
           }
         }, " ", item.word, " "), React.createElement(ReactTooltip, {
           place: "top",
           type: "dark",
-          effect: "solid"
+          effect: "solid",
+          globalEventOff: "click"
         }));
       }) : React.createElement("span", null, "No Data"));
     }
