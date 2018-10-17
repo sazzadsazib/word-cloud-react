@@ -40,7 +40,7 @@ function (_Component) {
         }, React.createElement("div", {
           "data-tip": "Value: " + item.value,
           onClick: function onClick() {
-            return _this.props.clickEvent(item);
+            return _this.props.clickEvent ? _this.props.clickEvent(item) : '';
           }
         }, " ", item.word, " "), React.createElement(ReactTooltip, {
           place: "top",

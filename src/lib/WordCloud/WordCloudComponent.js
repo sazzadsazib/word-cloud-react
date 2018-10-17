@@ -14,7 +14,7 @@ class WordCloudComponent extends Component {
                             color: this.props.color[Math.floor(Math.random()*100)%this.props.color.length],
                             fontSize: ''+Math.round(Math.log(item.value)*1.2)+'vmin',
                         }}>
-                        <div data-tip={"Value: "+item.value} onClick={()=>this.props.clickEvent(item)}> {item.word} </div>
+                        <div data-tip={"Value: "+item.value} onClick={()=>this.props.clickEvent ? this.props.clickEvent(item) : ''}> {item.word} </div>
                             <ReactTooltip place="top" type="dark" effect="solid"/>
                         </span>
                 ) : <span>No Data</span>}
