@@ -1,5 +1,7 @@
 # Word Cloud React &middot; [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/sazzadsazib/word-cloud-react/blob/master/LICENSE) [![GitHub license](https://img.shields.io/badge/word--cloud--react-0.1.7-green.svg)](https://github.com/sazzadsazib/word-cloud-react/blob/master/LICENSE) 
 A library of to show Word Cloud in ReactJs
+![alt tag](https://s3-ap-southeast-1.amazonaws.com/alice-website/word+cloud+react.png)
+
 ## Getting Started
 
 To install the package run command
