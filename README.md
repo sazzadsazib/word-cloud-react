@@ -4,7 +4,7 @@ A library of to show Word Cloud in ReactJs
 
 ## Getting Started
 
-To install the package run command
+To install the package run command.
 <br/>
 ```npm i word-cloud-react --save``` 
 <br/>
