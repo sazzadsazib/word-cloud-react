@@ -30,6 +30,7 @@ Use the component as:
 ### Props
 
 There are different conditional Props available in this component, they are, <br/>
+
 |Name |Type|Sample| Required | Description |
 |---|---|---|---|---|
 |`width`| `"auto"` or `any integer`|`width={"auto"}` or `width={600}`| `true` | The width of the word cloud
