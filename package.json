@@ -1,10 +1,12 @@
 {
   "name": "word-cloud-react",
-  "version": "0.1.8",
+  "version": "0.1.10",
   "dependencies": {
     "react-tooltip": "^3.9.0",
     "@babel/cli": "^7.0.0",
-    "@babel/core": "^7.0.0"
+    "@babel/core": "^7.0.0",
+    "babel-preset-react-app": "^5.0.4",
+    "prop-types": "^15.6.2"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -22,8 +24,6 @@
     "not op_mini all"
   ],
   "devDependencies": {
-    "babel-preset-react-app": "^5.0.4",
-    "prop-types": "^15.6.2",
     "react": "^16.5.2",
     "react-dom": "^16.5.2",
     "react-scripts": "2.0.5"
